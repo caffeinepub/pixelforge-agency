@@ -112,9 +112,13 @@ function Navbar() {
         <button
           type="button"
           onClick={() => handleScrollTo("#home")}
-          className="font-display font-black text-xl tracking-tight text-foreground hover:opacity-80 transition-opacity"
+          className="hover:opacity-80 transition-opacity"
         >
-          Pixel<span className="text-primary glow-text">Forge</span>
+          <img
+            src="/assets/uploads/PixelForge-Logo-1.png"
+            alt="PixelForge"
+            className="h-10 w-auto object-contain"
+          />
         </button>
 
         {/* Desktop nav */}
@@ -976,10 +980,10 @@ function Contact() {
                   </span>
                 </div>
                 <a
-                  href="mailto:hello@pixelforge.studio"
+                  href="mailto:sweatframe@gmail.com"
                   className="text-primary hover:underline font-body text-sm"
                 >
-                  hello@pixelforge.studio
+                  sweatframe@gmail.com
                 </a>
                 <p className="text-muted-foreground text-xs mt-1 font-body">
                   We respond within 24 hours
@@ -1100,11 +1104,11 @@ function Footer() {
             </p>
             <div className="space-y-3">
               <a
-                href="mailto:hello@pixelforge.studio"
+                href="mailto:sweatframe@gmail.com"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary text-sm font-body transition-colors"
               >
                 <Mail size={14} className="text-primary flex-shrink-0" />
-                hello@pixelforge.studio
+                sweatframe@gmail.com
               </a>
             </div>
           </div>
